@@ -12,8 +12,12 @@ module.exports = {
         extensions: ['', '.webpack.js', '.js', '.ts']
     },
     module: {
-        loaders: [
 
+        loaders: [
+            {
+                test: /\.css$/,
+                loaders: ['style-loader', 'css-loader']
+              },
             {
                 test: /\.js?$/,
                 exclude: /(node_modules|bower_components)/,

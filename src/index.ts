@@ -1,4 +1,5 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
+// @import "custom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import _ from 'lodash';
 import angular from 'angular';
 import route from 'angular-route';

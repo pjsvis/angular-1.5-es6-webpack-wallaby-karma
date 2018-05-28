@@ -13,7 +13,7 @@ export const app: ng.IComponentOptions = {
     bindings: {},
     controller: AppController,
     template: `
-    <div class="h1">Hello there big boy. {{$ctrl.message}} = 2</div>
+    <div class="h1 message">Hello there big boy. {{$ctrl.message}} = 2</div>
 `
 };
 
