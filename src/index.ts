@@ -1,11 +1,8 @@
-// @import "custom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import _ from 'lodash';
 import angular from 'angular';
 import route from 'angular-route';
 import animate from 'angular-animate';
-// import * as ui from 'angular-ui-bootstrap';
-// import angular.ui from 'angular-ui-bootstrap';
 import { IAppService } from './shared/AppService';
 import { app } from './components/app/app.component';
 import AppService from './shared/AppService';
@@ -24,5 +21,3 @@ angular
     .config(routingConfig)
     .factory('AppService', AppService)
     .component('appComponent', app);
-
-// { test: /\.ts$/, loader: 'ts-loader' },

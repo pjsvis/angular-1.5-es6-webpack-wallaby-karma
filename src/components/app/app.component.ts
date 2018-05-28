@@ -1,6 +1,5 @@
 import './App.scss';
 import * as AppService from '../../shared/AppService';
-import * as angular from 'angular/index';
 
 AppController.$inject = ['AppService'];
 function AppController(AppService: AppService.IAppService) {
@@ -13,11 +12,8 @@ export const app: ng.IComponentOptions = {
     bindings: {},
     controller: AppController,
     template: `
-    <div class="h1 message">Hello there big boy. {{$ctrl.message}} = 2</div>
+    <div class="h1 message">Hello there big boy. {{$ctrl.message}}</div>
 `
 };
 
-// // Use as default for switch over string types
-// function assertNever(obj: never): never{
-// throw new Error('Unexpected object');
-// }
+

@@ -1,4 +1,3 @@
-import angular from 'angular';
 /**
  * The AppService provides a canned message, and that's it!
  * I mean why bother?
@@ -8,11 +7,10 @@ export interface IAppService {
 }
 
 export default function AppService(): IAppService {
-    let message = 'message from AppService';
     return {
-        getMessage() {
-            return message;
-        }
+        getMessage: getMessage
     };
+    function getMessage() {
+        return 'message from AppService';
+    }
 }
-

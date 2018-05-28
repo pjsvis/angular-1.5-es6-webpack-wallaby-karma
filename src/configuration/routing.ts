@@ -1,5 +1,3 @@
-import route from 'angular-route';
-
 routingConfig.$inject = ['$routeProvider','$locationProvider'];
 export function routingConfig(
     $routeProvider: ng.route.IRouteProvider,
