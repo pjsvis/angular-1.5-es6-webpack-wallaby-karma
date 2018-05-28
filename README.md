@@ -18,6 +18,7 @@ Both runners are using PhantomJS2 to run the tests.
 
 ## todo
 
+- upgrade from webpack 1 to current version
 - fix `DevTools failed to parse SourceMap: http://localhost:8080/webpack-dev-server/bootstrap.min.css.map` chrome devtools error
 
 ```javascript
